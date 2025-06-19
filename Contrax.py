@@ -111,4 +111,4 @@ if len(versoes_validas) >= 2:
         st.markdown(st.session_state.resultado_comparacao, unsafe_allow_html=True)
 
 else:
-    st.info("Por favor, carregue dois contratos para comparar.")
+    st.info("Por favor, carregue dois ou mais contratos para comparar.")
